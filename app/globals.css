@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+/* Motif kotak-kotak khas poster menu */
+.checker {
+  height: 40px;
+  background: conic-gradient(#fff 25%, #E4160A 0 50%, #fff 0 75%, #E4160A 0) 0 0 / 40px 40px;
+}
+:focus-visible { outline: 3px solid #FFC72C; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
